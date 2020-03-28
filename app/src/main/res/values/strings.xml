@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cameo</string>
+    <string name="Camoe">Cameo</string>
+    <string name="Cameo">Cameo</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="we_re_having_trouble_finding_your_information">We can\'t find shit. Try again later.</string>
+    <string name="come_back_later_or_try_again">Come back later Jabroni!</string>
+    <string name="try_again">Try Again</string>
+    <string name="currently_there_are_no_photos">Currently, there are no photos available.</string>
+    <string name="notification_channel_name">FlickrFetcher</string>
+    <string name="new_pictures_title">New Cameo Pictures</string>
+    <string name="new_pictures_text">You have new pictures in Cameo.</string>
+    <string name="start_polling">Start Polling</string>
+    <string name="stop_polling">Stop Polling</string>
+</resources>

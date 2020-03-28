@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/default_error_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/empty_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="29dp"
+        android:src="@drawable/ic_error_image"/>
+
+    <TextView
+        android:id="@+id/error_view_header_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="23dp"
+        android:text="@string/we_re_having_trouble_finding_your_information"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/error_view_body_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="75dp"
+        android:text="@string/come_back_later_or_try_again"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/error_retry_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/darker_gray"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+        android:text="@string/try_again"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"/>
+</LinearLayout>
